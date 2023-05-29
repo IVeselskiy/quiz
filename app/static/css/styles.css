@@ -1,0 +1,89 @@
+body {
+    display: block;
+    width: 100%
+}
+
+.attic {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 15vw;
+    background-color: red;
+}
+
+
+.main {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 27vw;
+    background-color: #f000;
+}
+
+.footer {
+    position: fixed;
+    display: block;
+    margin: 0;
+    bottom: 0;
+    width: 100%;
+    height: 6.5vw;
+    background-color: #1a0909eb;
+}
+
+h1 {
+    margin: 0;
+    font-family: Arial, sana-serif;
+    font-size: 5vw;
+    color: white;
+    text-align: center;
+    padding: 5vw;
+}
+
+h2 {
+    font-family: Arial, sana-serif;
+    font-size: 3vw;
+    color: black;
+    text-align: center;
+    padding: 2vw;
+}
+
+h3 {
+    margin: 0;
+    font-family: Arial, sana-serif;
+    font-size: 1.5vw;
+    color: white;
+    text-align: center;
+    padding: 3vw;
+}
+
+.field {
+    text-align: center;
+}
+
+.window {
+    margin: 4vw;
+    font-family: Arial, sana-serif;
+    font-size: 2vw;
+    border-radius: 10px;
+    border: 0px;
+    padding: 12px;
+    filter: drop-shadow(5px 5px 5px #d7d6d6);
+}
+
+.main_button {
+    margin-top: 3 vw;
+    text-align: center;
+}
+
+.content {
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    background-color: grey;
+}
+
+.table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}

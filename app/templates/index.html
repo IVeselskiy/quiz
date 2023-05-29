@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ super() }}
+{% endblock %}
+
+{% block attic %}
+{{ super() }}
+{% endblock %}
+
+{% block main %}
+<div class="main">
+    <form action="/quiz" method="post">
+        {{ form.csrf_token }}
+        <div><h2>Введите количество вопросов:</h2></div>
+        <div class="field"><label class="window">{{ form.number_of_questions }}</label></div>
+        <div class="main_button"><input class="window" type="submit" value="Добавить"></div>
+    </form>
+    <div class="content">
+        {% if questions %}
+        <div><h3>{{ questions.question_text }}</h3></div>
+        {% else %}
+        <div><h3>Нажмите "Добавить", чтобы получить вопрос.</h3></div>
+        {% endif %}
+    </div>
+</div>
+
+{% endblock %}
+
+{% block footer %}
+{{ super() }}
+{% endblock %}
